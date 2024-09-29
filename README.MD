@@ -42,6 +42,9 @@ Again, the rest of the binaries use GSCore for this. Nop it out, et no phone hom
 
 Script to patch in the GSCore dir.
 
+![Image2](https://github.com/whalelinguni/GeekSquadMRICrack/blob/main/GSCore-Ping-Patch-2.png?raw=true)
+
+
 # GSSkin.dll
 ## Resource Inspection and Observations
 
