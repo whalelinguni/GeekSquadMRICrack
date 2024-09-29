@@ -28,6 +28,9 @@ Jump the check, done. Don't bother 'patching' everything.
 
 Script to patch in the GSCommon dir.
 
+![Image](https://github.com/whalelinguni/GeekSquadMRICrack/blob/main/GSCommonPatch.png?raw=true)
+
+
 # GSCore.dll
 This little dll went to market, and pings home. 
 
