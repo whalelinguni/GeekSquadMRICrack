@@ -21,8 +21,11 @@ Click HERE to jump to the section you want.
 # GSCommon.dll
 ###### Because 2012 was disappointing.....
 Excluding MRI.exe (kinda) GSCommon.dll is responsible for date checking. 
+
 This isn't tuts4yuuuahhh crank dat
+
 Jump the check, done. Don't bother 'patching' everything. 
+
 Script to patch in the GSCommon dir.
 
 # GSCore.dll
