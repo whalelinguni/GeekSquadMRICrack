@@ -1,4 +1,5 @@
 
+
 # Combined GS(I) MRI DLL Mods/Patches/Crack(s)/serial.txt.bat Informations
 
 **WORK IN PROGESS**
@@ -26,7 +27,7 @@ Patch(es) I feel should work for many versions.
 
 ### ok....breaking down by 3 dlls.
 - GSCommon.dll ("Expiration" dates)
-- GSCore.dll ("Calling home ping")
+~~- GSCore.dll ("Calling home ping")~~
 - GSSkin.dll ("Skin walker ranch")
 
 Click HERE to jump to the section you want. 
@@ -48,7 +49,8 @@ Script to patch in the GSCommon dir.
 # GSCore.dll
 This little dll went to market, and pings home. 
 
-I \*think\* the way I patched this does not interfere with anything.
+~~I \*think\* the way I patched this does not interfere with anything.~~
+I thought wrong. See 09-30 update
 
 The patch cuts out the call home portion when subsequent binaries are run. The only issue with this method is sometimes system updater may crash on first launch (Or it does not and I have some issue with my environment). Not the most elegant method, but I don't think this dll has been touched since like 2004.
 
