@@ -27,7 +27,7 @@ Patch(es) I feel should work for many versions.
 
 ### ok....breaking down by 3 dlls.
 - GSCommon.dll ("Expiration" dates)
-~~- GSCore.dll ("Calling home ping")~~
+- ~~GSCore.dll ("Calling home ping")~~
 - GSSkin.dll ("Skin walker ranch")
 
 Click HERE to jump to the section you want. 
