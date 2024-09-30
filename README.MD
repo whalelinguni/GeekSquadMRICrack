@@ -54,18 +54,18 @@ Script to patch in the GSCommon dir.
 
 
 # GSCore.dll
-This little dll went to market, and pings home. 
+~~This little dll went to market, and pings home. ~~
+And this is all a bad way to block! 
 
 ~~I \*think\* the way I patched this does not interfere with anything.~~
 I thought wrong. See 09-30 update
 
-The patch cuts out the call home portion when subsequent binaries are run. The only issue with this method is sometimes system updater may crash on first launch (Or it does not and I have some issue with my environment). Not the most elegant method, but I don't think this dll has been touched since like 2004.
+~~The patch cuts out the call home portion when subsequent binaries are run. The only issue with this method is sometimes system updater may crash on first launch (Or it does not and I have some issue with my environment). Not the most elegant method, but I don't think this dll has been touched since like 2004.~~
 
-Again, the rest of the binaries use GSCore for this. Nop it out, et no phone home.
+~~Again, the rest of the binaries use GSCore for this. Nop it out, et no phone home.~~
 
-Script to patch in the GSCore dir.
+~~Script to patch in the GSCore dir.~~
 
-![Image2](https://github.com/whalelinguni/GeekSquadMRICrack/blob/main/GSCore-Ping-Patch-2.png?raw=true)
 
 
 # GSSkin.dll
