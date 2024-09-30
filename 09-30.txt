@@ -1,0 +1,110 @@
+GSCore.dll
+--------------------------------------------------
+  [+] https://geeksquadcentral.com/services/c4/v1/bbyip/
+
+
+GSCommon.dll
+--------------------------------------------------
+  [+] http://ping.geeksquadcentral.com/ws/p/cS.php
+  [+] http://gslink.us/bde/armory
+  [+] http://gslink.us/bde/resources/videos/%s
+  [+] http://gslink.us/bde/resources/documents/%s
+  [+] http://gslink.us/bde/forums
+  [+] https://www.bbylearningnetwork.com
+
+
+desktop_information.dll
+--------------------------------------------------
+  [+] ://geeksquadlabs.com/ping/api/v1/
+  [+] ://geeksquadcentral.com/ping/api/v1/
+  [+] Bgeeksquadcentral.com
+  [+] E://geeksquadcentral.com/ping/api/v1/dossier/order/notes
+  [+] ://geeksquadcentral.com/ping/api/v1/dossier/order/verify
+  [+] ://geeksquadlabs.com/ping/api/v1/dossier/order/notes
+  [+] ://geeksquadlabs.com/ping/api/v1/dossier/order/verify
+
+
+Relevant Domains:
+geeksquadcentral.com
+geeksquadlabs.com
+
+---
+Notes:
+
+Appears must be on best buy ip/intranet to access? Must be a link somewhere in the program. Did not see any attemps to connect.
+- geeksquadcentral.com/services/c4/v1/bbyip/
+
+Not sure. 30 second ping goes to -> http://ping.geeksquadcentral.com/ws/p/cS.php
+- geeksquadcentral.com/ping/api/v1/
+- geeksquadlabs.com/ping/api/v1/
+
+SystemUpdater.exe larger GET requests
+- https://gsccdn.com/app/ping/24.2.27/bundles/gsttcore/js/core.js	GET	200	2.4mb	249ms	
+- https://gsccdn.com/app/ping/24.2.27/bundles/gsttgeeksquadcentral/css/geeksquadcentral.css	GET	200	310.1kb	251ms	
+
+SystemUpdater.exe url and silent install switches:
+https://s3.amazonaws.com/geeksquad/mri/cfg/su/prod/v2/tpa.json
+http://gslink.us/mri/cfg/su/prod/v2/tpa --> links to CDN https://gsccdn.com/Products/GeekSquad/ThirdPartyApplicationConfig/Neutral/Neutral/tpa.json
+all 3 appear to be the same? but refrence gs-update.dll and gsupdate.dll
+
+
+** 01: Can probably block both geeksquadcentral.com and geeksquadlabs.com without update issues.
+** 02: Blocking the ping.geeksquadcentral.com may also work. Would like to send the least amount of traffic.
+		--NOTE: Something being sent has now been blocked/banned by GS servers. MRI HUD no longer will open. Previously could post notes to GS servers.
+
+---
+
+Extra:
+
+------------------------------------------------------------------------------------
+systemupdater.exe
+------------------------------------------------------------------------------------
+https://s3.amazonaws.com/geeksquad/mri/cfg/su/dev/v2/tpa.json
+https://s3.amazonaws.com/geeksquad/mri/cfg/su/prod/v2/tpa.json
+
+https://gsccdn.com/vendor/bitdefender/avcore/public/defs/static/current
+http://gsccdn.com/vendor/bitdefender/avcore/public/defs/static/
+
+https://www.trendmicro.com/ftp/products/aupattern/spyware_ssaptn/ssaptn
+
+http://gslink.us/mri/cfg/su/dev/v2/tpa
+http://gslink.us/mri/cfg/su/prod/v2/tpa
+http://gslink.us/SystemUpdaterFACE_Dev
+http://gslink.us/SystemUpdaterFACE
+
+http://s3.amazonaws.com/geeksquad/mri/SystemUpdater/dev/SystemUpdater_FACE.xml
+http://s3.amazonaws.com/geeksquad/mri/SystemUpdater/prod/SystemUpdater_FACE.xml
+
+------------------------------------------------------------------------------------
+
+#####################################################################################################
+09-30-2024 -> http://s3.amazonaws.com/geeksquad/mri/SystemUpdater/prod/SystemUpdater_FACE.xml:
+------------------------------------------------------------------------------------
+<system_updater>
+<config>
+<update_cache>
+<enabled>0</enabled>
+<timeout_seconds>5</timeout_seconds>
+<network_location>GSISO\Update_Cache\BDE</network_location>
+</update_cache>
+<download_maxthreads>4</download_maxthreads>
+<download_maxretries>2</download_maxretries>
+</config>
+<definitions>
+<definition>
+<name>Panda Signature Database</name>
+<disc_folder>Malware\Core Scanners\Panda</disc_folder>
+<dl_url>
+https://s3.amazonaws.com/geeksquad/mri/SystemUpdater/prod/defs/pavdefs.zip
+</dl_url>
+<dl_file>pavdefs.zip</dl_file>
+<dl_size>35846232</dl_size>
+<face_id>104</face_id>
+<face_tfu>3</face_tfu>
+<timetoexpire_days>2</timetoexpire_days>
+<updated>2017-07-03 20:00:02</updated>
+</definition>
+</definitions>
+</system_updater>
+------------------------------------------------------------------------------------
+#####################################################################################################
