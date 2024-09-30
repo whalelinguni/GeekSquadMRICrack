@@ -67,6 +67,8 @@ Script to patch in the GSCore dir.
 # GSSkin.dll
 ## Resource Inspection and Observations
 
+### Edit: 09-30: As pointed out, I used 'color' a bit loose. The 'color' in the XML is for the text, shading, menu bars, etc. NOT the buttons etc. 
+
 - Seems that LangID must be set to 1033 (United States) for it to operate correctly. (I think)
 - Inspecting the 'STYLE XML' have found this appears to use 'SkinCrafter' for the GUI skin.
 	- Note that in the XML there's a prefix defined of 'GS_'
