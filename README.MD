@@ -19,7 +19,10 @@ There's a MUCH easier way to go about this.
 Will post a better patch once I dig down a little more. As of now I have sucessfully blocked all calling home things, without breaking any update function.
 
 for the time being, there's a script just to patch out over the 2 domains on any input binary
-- gsMRI_strReplace.py
+```
+python gsMRI_strReplace.py -f GSCommon.dll
+python gsMRI_strReplace.py -f desktop_information.dll
+```
 
 ### update /end
 
