@@ -2,8 +2,8 @@
 
 # Combined GS(I) MRI DLL Mods/Patches/Crack(s)/serial.txt.bat Informations
 
-## tl;dr
-### copy both scripts to \MRI dir.
+### tl;dr
+#### copy both scripts to \MRI dir.
 ```
 # Patch for expiration
 python GSCommon-patch.py
