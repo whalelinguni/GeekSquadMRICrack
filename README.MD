@@ -18,6 +18,9 @@ There's a MUCH easier way to go about this.
 - Step 2: just replace the string in the binary. Seems to work just fine tearing it out and stuffing a new one in. Just, keep the char count equal to or less. 
 Will post a better patch once I dig down a little more. As of now I have sucessfully blocked all calling home things, without breaking any update function.
 
+for the time being, there's a script just to patch out over the 2 domains on any input binary
+- gsMRI_strReplace.py
+
 ### update /end
 
 Putting all of this under one repo for informations. 
