@@ -79,6 +79,7 @@ http://s3.amazonaws.com/geeksquad/mri/SystemUpdater/prod/SystemUpdater_FACE.xml
 
 #####################################################################################################
 09-30-2024 -> http://s3.amazonaws.com/geeksquad/mri/SystemUpdater/prod/SystemUpdater_FACE.xml:
+Although nothing has called this. Just curious if the "time to expire" ever changes. 
 ------------------------------------------------------------------------------------
 <system_updater>
 <config>
