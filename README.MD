@@ -18,7 +18,8 @@ There's a MUCH easier way to go about this.
 - Step 2: just replace the string in the binary. Seems to work just fine tearing it out and stuffing a new one in. Just, keep the char count equal to or less. 
 Will post a better patch once I dig down a little more. As of now I have sucessfully blocked all calling home things, without breaking any update function.
 
-for the time being, there's a script just to patch out over the 2 domains on any input binary
+### Block call home ping through GSCommon.dll and desktop_information.dll (this seems to work fine)
+for the time being, there's a script just to patch out over the 2 domains on any input binary, will add what is needed to a new GSCommon.dll patch script.
 ```
 python gsMRI_strReplace.py -f GSCommon.dll
 python gsMRI_strReplace.py -f desktop_information.dll
@@ -33,7 +34,7 @@ Patch(es) I feel should work for many versions.
 
 ### ok....breaking down by 3 dlls.
 - GSCommon.dll ("Expiration" dates)
-- ~~GSCore.dll ("Calling home ping")~~
+- ~~GSCore.dll ("Calling home ping")~~ Bad Method. Block with string replacement on GSCommon.dll and desktop_information.dll
 - GSSkin.dll ("Skin walker ranch")
 
 Click HERE to jump to the section you want. 
