@@ -54,12 +54,10 @@ Script to patch in the GSCommon dir.
 
 
 # GSCore.dll
-~~This little dll went to market, and pings home.~~
-
-And this is all a bad way to block! 
-
 ~~I \*think\* the way I patched this does not interfere with anything.~~
 I thought wrong. See 09-30 update
+
+~~This little dll went to market, and pings home.~~
 
 ~~The patch cuts out the call home portion when subsequent binaries are run. The only issue with this method is sometimes system updater may crash on first launch (Or it does not and I have some issue with my environment). Not the most elegant method, but I don't think this dll has been touched since like 2004.~~
 
