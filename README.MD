@@ -54,7 +54,8 @@ Script to patch in the GSCommon dir.
 
 
 # GSCore.dll
-~~This little dll went to market, and pings home. ~~
+~~This little dll went to market, and pings home.~~
+
 And this is all a bad way to block! 
 
 ~~I \*think\* the way I patched this does not interfere with anything.~~
