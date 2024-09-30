@@ -12,6 +12,9 @@ python GSCommon-patch.py
 python gsMRI_strReplace.py -f GSCommon.dll
 python gsMRI_strReplace.py -f desktop_information.dll
 ```
+### tl;dr /end
+
+
 
 **WORK IN PROGESS**
 **Will update with a loader.** 
