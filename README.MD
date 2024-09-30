@@ -6,15 +6,11 @@
 ###### Or I won't. Depends on how quickly I get bored.
 
 ### Update 09-30 - Notes-09-30.txt in repo with more detailed informations.
-Ehhhh.... while the method I used attempting to block the calling home does technically *work*... 
-
-Additionally I believe there's something that is being sent for some type of auth, which I seems now it is blocked/banned from GS Servers.
-
-Between similar looking domains, dlls, and comparing several sets of binaries, its quite possible I mixed something up somewhere.
+Ehhhh.... while the method I used attempting to block the calling home does technically *work*... Additionally I believe there's something that is being sent for some type of auth, which I seems now it is blocked/banned from GS Servers.
 
 System Updater does not function at all. The other programs do not seem to have an issue, they also don't do anything online anyways (for all intensive purpose).
- 
-I really want to drill down to see if/what is getting blocked and finding an easy but dyanmic way to route http traffic. 
+
+Between similar looking domains, dlls, and comparing several sets of binaries, its quite possible I mixed something up somewhere. I really want to drill down to see if/what is getting blocked and finding an easy but dyanmic way to route http traffic. 
 
 There's a MUCH easier way to go about this. 
 - Step 1: don't be an idiot, and when replacing strings use UTF-16 LE. I dumbed on this originally. 
