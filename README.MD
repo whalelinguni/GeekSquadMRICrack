@@ -2,15 +2,13 @@
 
 # Combined GS(I) MRI DLL Mods/Patches/Crack(s)/serial.txt.bat Informations
 
-### tl;dr
-#### copy both scripts to \MRI dir.
-```
-# Patch for expiration
-python GSCommon-patch.py
+New patch done. 09-31
 
-# WIP/Testing Patch for blocking call home ping
-python gsMRI_strReplace.py -f GSCommon.dll
-python gsMRI_strReplace.py -f desktop_information.dll
+### tl;dr
+#### copy MRI-Patch-Tool_WL_v4.20.py to \MRI dir.
+```
+# Patch for expiration and pinging home
+python MRI-Patch-Tool_WL_v4.20.py
 ```
 ### tl;dr /end
 
